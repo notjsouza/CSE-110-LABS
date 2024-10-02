@@ -1,0 +1,77 @@
+
+.Navbar {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.Navbar img {
+  max-width: 400px;
+}
+
+.Navbar li {
+  display: inline;
+}
+
+.Navbar li a {
+  font-size: 28px;
+}
+
+.Navbar li:hover {
+  background-color: #182b49;
+}
+
+.Navbar li:hover a {
+  color: white;
+}
+
+.Section_1 {
+  background-color: rgb(245, 240, 230);
+  display: inline-block;
+  width: 100%;
+  scroll-margin-top: 140.5px;
+}
+
+.Section_1 p {
+  font-size: 18px;
+}
+
+.Section_2 {
+  background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  scroll-margin-top: 140.5px;
+}
+
+.Section_2 h3 {
+  color: white;
+}
+
+.Section_2 p {
+  color: white;
+}
+
+.Section_3 {
+  background-color: rgb(245, 240, 230);
+  padding: 20px;
+  width: 100%;
+  scroll-margin-top: 140.5px;
+}
+
+.Section_3 .Text_Boxes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.Section_3 .Text_Boxes .text_box {
+  background-color: #182b49;
+  color: white;
+  padding: 15px;
+  max-height: 500px;
+  overflow-y: scroll;
+}
