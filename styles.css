@@ -65,13 +65,35 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 25px;
   justify-content: center;
-  padding: 20px;
 }
 
 .Section_3 .Text_Boxes .text_box {
   background-color: #182b49;
   color: white;
-  padding: 15px;
   max-height: 500px;
   overflow-y: scroll;
+}
+
+@media screen and (max-width: 800px) {
+  
+  .Navbar li {
+    display: none;
+  }
+
+  .Navbar img {
+    max-width: 75%;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .Section_3 .Text_Boxes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
 }
