@@ -13,3 +13,5 @@ export type Note = {
   isLiked: boolean;
   isDeleted: boolean;
 };
+
+export type GroceryItem = { name: string; isPurchased: boolean };
